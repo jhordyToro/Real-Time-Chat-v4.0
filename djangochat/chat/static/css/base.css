@@ -1,0 +1,188 @@
+*{
+    margin:0;box-sizing:border-box;font-family: Arial;text-decoration: none;
+}
+body {
+    background-color: rgb(46, 46, 46);
+}
+
+.chat-messages {
+    height: 400px;
+    overflow-y: auto;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.djangochat {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.separator {
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    margin: 15px;
+}
+
+.divbody {
+    display: flex;
+    align-items: center;
+    -ms-transform-origin-x: 4px;
+}
+
+
+#backgroundmenu {
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    border-radius: 5px;
+    font-size: larger;
+
+}
+
+
+
+.rooms {
+    color: rgb(0, 0, 0);
+}
+.rooms:hover {
+    color: rgb(24, 24, 24);
+}
+
+
+.logout {
+    -ms-transform-origin-x: 5px;
+    -ms-transform-origin-y: 3px;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+}
+.logout:hover {
+    background-color: rgb(24, 24, 24);
+}
+
+
+.login {
+    color: rgb(0, 0, 0);
+    margin-top: 4px;margin-bottom: 4px;
+    margin-left: 10px;margin-right: 10px;
+}
+.login:hover {
+    color: rgb(24, 24, 24);
+}
+
+
+.signup {
+    
+    margin-top: 4px;margin-bottom: 4px;
+    margin-left: 10px;margin-right: 10px;
+    color: rgb(0, 0, 0);
+}
+.signup:hover {
+    color: rgb(24, 24, 24);
+}
+
+
+ /* ----------------frontpage--------------- */
+
+.divdjangogod {
+    text-align: center;
+    }.h1front{
+        margin: auto;
+        margin-top: 200px;
+        font-size: 50px;
+        color: white;
+    }
+
+
+/* --------------------login and signup------------------ */
+
+.divtitleform {
+    text-align: center;
+    }.formtitle{
+        color: white;
+        font-size: 50px;
+        margin-top: 50px;
+    }
+
+.form{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    }.divform{
+        margin-top: 45px;
+    }.inputform{
+        width: 400px;
+        height: 30px;
+        border-radius: 10px;
+    }.diverror{
+        margin-top: 10px;
+        border-radius: 10px;
+        background-color: rgb(151, 0, 0);
+        color: white;
+    }.button{
+        width: 100px;
+        height: 50px;
+        border-radius: 15px;
+        color: white;
+        background-color: black;
+        margin-top: 40px;
+    }.button:hover{
+        background-color: rgb(29, 29, 29);
+    }
+
+/* ---------------------------------- */
+    .lavelrepeatpassword{
+        margin-left: -80px;
+    }
+    .repeatpassword{
+        width: 400px;
+        height: 30px;
+        border-radius: 10px;
+    }
+
+
+/* ------------------rooms---------------------- */
+
+.fivrooms{
+    margin-top: 50px;
+    flex: auto;
+    text-align: center;
+    }.divrooms2{
+        font-size: 20px;
+        margin-top: 50px;
+        }.divrooms3{
+            margin: auto;
+            background-color: white;
+            box-shadow: inset;
+            border-radius: 10px;
+            text-align: center;
+            width: 500px;
+            height: 100px;
+            }.a{
+                text-align: center;
+                margin-top: 20px;
+                margin-left: 175px;
+                margin-right: 50px;
+                margin-bottom: 5px;
+                width: 140px;
+                height: 40px;
+                background-color: black;
+                border-radius: 10px;
+            }.joinroom{
+                color: white;
+                margin-top: 10px;
+            }
+

@@ -8,35 +8,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>{% block title %}{% endblock %}Djangochat</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-
-    <style>
-        .chat-messages {
-            height: 400px;
-            overflow-y: auto;
-        }
-    </style>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 
 </head>
 
-<body class="bg-teal-600">
+<body>
     
-    <nav class="flex items-center justify-between px-4 py-6 bg-teal-800">
+    <nav>
         <div>
-            <a href="/" class="text-xl text-white">Djangochat</a>
+            <a href="/" class="djangochat" >Djangochat</a>
+        </div>
+        <div>
+            <p class="separator">
+                |
+            </p>
         </div>
 
 
-        <div class="flex  items-center space-x-4">
+        <div id="divbody">
             {% if request.user.is_authenticated %}
-
-                <a href="/rooms/" class="text-white hover:text-gray-200">Rooms</a>
-
-                <a href="/logout/" class="px-5 py-3 rounded-xl text-white bg-teal-600 hover:bg-teal-700">Log out</a>
-
+                <div id="backgroundmenu">
+                    <a href="/rooms/" class="rooms" >Rooms</a>
+                    <a href="/logout/" class="logout" >Log out</a>
+                </div>
             {% else %}
-                <a href="/login/" class="text-white hover:text-gray-200">Log in</a>
-                <a href="/signup/" class="px-5 py-3 rounded-xl text-white bg-teal-600 hover:bg-teal-700">Singup</a>
+                <div id="backgroundmenu">
+                    <a href="/login/" class="login" >Log in</a>
+                    <a href="/signup/" class="signup" >Singup</a>
+                </div>
             {% endif %}
 
         </div>

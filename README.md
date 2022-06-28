@@ -1,5 +1,5 @@
 ### Log In of the Page
-<img src="https://i.imgur.com/8zL5f9R.png">
+<img src="https://raw.githubusercontent.com/jhordyToro/Real-Time-Chat-v3.0/Stylecss/staticimg/login.png">
 Simple page of chat real time
 
 
@@ -11,10 +11,10 @@ Simple page of chat real time
 -channels 3.0.4
 
 ### Signup of the page
-<img src="https://i.imgur.com/RKhkI0c.png"></img>
+<img src="https://raw.githubusercontent.com/jhordyToro/Real-Time-Chat-v3.0/Stylecss/staticimg/signup.png"></img>
 
 ### Rooms of the page
-<img src="https://i.imgur.com/oiJ1VM9.png"></img>
+<img src="https://raw.githubusercontent.com/jhordyToro/Real-Time-Chat-v3.0/Stylecss/staticimg/rooms.png"></img>
 
 
 

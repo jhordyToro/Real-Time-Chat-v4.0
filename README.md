@@ -1,6 +1,3 @@
-### Chat Real Time 
-<img src="https://github.com/jhordyToro/Real-Time-Chat-v3.0/blob/main/static/chat-real-time2%20(1).gif">
-
 ### Log In of the Page
 <img src="https://i.imgur.com/8zL5f9R.png">
 Simple page of chat real time
@@ -16,11 +13,9 @@ Simple page of chat real time
 ### Signup of the page
 <img src="https://i.imgur.com/RKhkI0c.png"></img>
 
-### Rooms of the page - on mobile devices
+### Rooms of the page
 <img src="https://i.imgur.com/oiJ1VM9.png"></img>
 
-### chat of the rooms - on mobile devices
-<img src="https://i.imgur.com/TJMpJaf.png"></img>
 
 
 Facebook [@jhordytoro](https://www.facebook.com/jhordy.toroarroyo.9)<br>

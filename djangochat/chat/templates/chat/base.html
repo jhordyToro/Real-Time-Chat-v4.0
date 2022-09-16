@@ -6,8 +6,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>{% block title %}{% endblock %}Djangochat</title>
+    <title>{% block title %}{% endblock %}UwU Chat</title>
     <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
@@ -15,15 +16,19 @@
             height: 400px;
             overflow-y: auto;
         }
+        .body {
+            background: linear-gradient(to right, rgb(200, 230, 92), #f0a213);
+        }
     </style>
 
 </head>
 
-<body class="bg-teal-600">
+<body class="body">
     
-    <nav class="flex items-center justify-between px-4 py-6 bg-teal-800">
+    <nav class="flex items-center justify-between px-4 py-6 bg-dark">
         <div>
-            <a href="/" class="text-xl text-white">Djangochat</a>
+            <a href="/" class="text-xl text-white">UwU Chat</a>
+
         </div>
 
 
@@ -32,20 +37,20 @@
 
                 <a href="/rooms/" class="text-white hover:text-gray-200">Rooms</a>
 
-                <a href="/logout/" class="px-5 py-3 rounded-xl text-white bg-teal-600 hover:bg-teal-700">Log out</a>
+                <a href="/logout/" class="px-5 py-3 rounded-xl text-white bg-warning hover:bg-teal-700">Log out</a>
 
             {% else %}
                 <a href="/login/" class="text-white hover:text-gray-200">Log in</a>
-                <a href="/signup/" class="px-5 py-3 rounded-xl text-white bg-teal-600 hover:bg-teal-700">Singup</a>
+                <a href="/signup/" class="px-5 py-3 rounded-xl text-white bg-warning hover:bg-teal-700">Singup</a>
             {% endif %}
 
         </div>
 
     </nav>
-
-    {% block content %}
-    {% endblock %}
-
+    <div class="m-0 vh-100 row justify-content-center align-items-center">
+        {% block content %}
+        {% endblock %}
+    </div>
     {% block scripts %}
     {% endblock %}
 

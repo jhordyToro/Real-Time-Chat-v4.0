@@ -19,7 +19,6 @@ Simple page of chat real time
 ### Signup of the page
 <img src="https://github.com/jhordyToro/Real-Time-Chat-v3.0/blob/v4.0/static/SingUp-page.png?raw=true"></img>
 
-### Rooms of the page - on mobile devices
 
 ### chat of the rooms - on mobile devices
 <img src="https://github.com/jhordyToro/Real-Time-Chat-v3.0/blob/v4.0/static/Roms-page.png?raw=true"></img>
